@@ -1,0 +1,13 @@
+{
+  "scriptFile": "ImageDataExtractor.py",
+  "entryPoint": "processFile",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "samples-workitems/{name}",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
