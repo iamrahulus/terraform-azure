@@ -8,4 +8,4 @@ def processFile(myblob: func.InputStream):
                  f"Name: {myblob.name}\n"
                  f"Blob Size: {myblob.length} bytes")
     body = myblob.read()
-    logging.info(" +++++++ Contents in the file: " + str(body, "utf-8"))
+    logging.info(" +++++++ Contents in the file: " + str(body))
